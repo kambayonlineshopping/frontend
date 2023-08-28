@@ -17,8 +17,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import UserData from "../context/userdata";
 
 export const searchClient = algoliasearch(
-  process.env.NEXT_PUBLIC_APP_ID,
-  process.env.NEXT_PUBLIC_API_KEY
+  process.env.NEXT_PUBLIC_ALGOLIA_APP_ID,
+  process.env.NEXT_PUBLIC_ALGOLIA_API_KEY
 );
 
 function App(props) {
