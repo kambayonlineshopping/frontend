@@ -2,4 +2,7 @@
 
 package-lock.json
 .next
+.env
+.prettierignore
+.prettierrc
 
