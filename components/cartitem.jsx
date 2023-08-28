@@ -71,7 +71,7 @@ export default function CartItem({ order, noControls }) {
           {order?.product?.name}
         </Text>
         <div className="flex space-x-3">
-          <p className="text-[#228B22] text-[0.9rem]">
+          <p className="text-[#0E5AA6] text-[0.9rem]">
             Ksh.{" "}
             {!noControls
               ? isOnSale(
@@ -114,7 +114,7 @@ export default function CartItem({ order, noControls }) {
                     // applies styles to selected item
                     "&[data-selected]": {
                       "&, &:hover": {
-                        backgroundColor: "#228B22",
+                        backgroundColor: "#0E5AA6",
                         color: "white",
                       },
                     },
